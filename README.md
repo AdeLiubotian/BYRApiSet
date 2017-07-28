@@ -10,26 +10,38 @@
 
 <code>
 UIImage *image = [UIImage imageNamed:@"test"];
+
 UIImage *thumbImage = [UIImage imageNamed:@"test"];
+
 [BYRWechatShare shareToWechatWithImage:image thumbImage:thumbImage type:0];
 </code></br>
 
 
 <code>
 UIImage *thumbImage = [UIImage imageNamed:@"test"];
+
 [BYRWechatShare shareToWechatWithMusicTitle:@"歌曲名"
+
                               description:@"歌曲描述"
+
                                thumbImage:thumbImage
+
                                  musicUrl:@"www.baidu.com" //替换你的URL
+
                              musicDataUrl:@"www.baidu.com" //替换你的URL
+
                                      type:1];
 </code></br>
 
 
 <code>
 [BYRWechatShare shareToWechatWithWebTitle:@"网页名字"
+
                             description:@"网页描述"
+
                              thumbImage:thumbImage
+
                              webpageUrl:@"www.baidu.com"
+                             
                                    type:1];
 </code></br>

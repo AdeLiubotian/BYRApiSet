@@ -1,17 +1,19 @@
 # BYRApiSet
 
 ## BYRWechatShare
-对微信开放的Api进行了简单的二次封装，一句代码实现分享文字、图像、视频、连接等等。
+对微信开放的Api进行了简单的二次封装，一句代码实现分享文字、图像、视频、连接等等。</br>
 
 <code>
 [BYRWechatShare shareToWechatWithText:@"LeeLom大帅比 哈哈" type:0]; 
-</code>
+</code></br>
+
 
 <code>
 UIImage *image = [UIImage imageNamed:@"test"];
 UIImage *thumbImage = [UIImage imageNamed:@"test"];
 [BYRWechatShare shareToWechatWithImage:image thumbImage:thumbImage type:0];
-</code>
+</code></br>
+
 
 <code>
 UIImage *thumbImage = [UIImage imageNamed:@"test"];
@@ -21,7 +23,8 @@ UIImage *thumbImage = [UIImage imageNamed:@"test"];
                                  musicUrl:@"www.baidu.com" //替换你的URL
                              musicDataUrl:@"www.baidu.com" //替换你的URL
                                      type:1];
-</code>
+</code></br>
+
 
 <code>
 [BYRWechatShare shareToWechatWithWebTitle:@"网页名字"
@@ -29,4 +32,4 @@ UIImage *thumbImage = [UIImage imageNamed:@"test"];
                              thumbImage:thumbImage
                              webpageUrl:@"www.baidu.com"
                                    type:1];
-</code>
+</code></br>

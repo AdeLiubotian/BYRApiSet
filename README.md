@@ -1,6 +1,6 @@
 # BYRApiSet
 
-## BYRWechatShare
+## [BYRWechatShare](https://github.com/LeeLom/BYRApiSet/tree/master/BYRWechatShare)
 对微信开放的Api进行了简单的二次封装，一句代码实现分享文字、图像、视频、连接等等。
 </br>
 
@@ -37,5 +37,5 @@
 	                             thumbImage:thumbImage
 	                             webpageUrl:@"www.baidu.com"
 	                                   type:1];
-	                                   
+
 </br>
